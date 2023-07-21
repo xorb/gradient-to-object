@@ -17,3 +17,21 @@ test("It should parse linear-gradient", () => {
     "matches original"
   );
 });
+
+
+test("It should parse radial-gradient", () => {
+  const expected = {
+    type: 'radial-gradient',
+    stops: [
+      { color: 'rgba(63,94,251,1)', position: 20 },
+      { color: 'rgba(252,70,107,1)', position: 90 }
+    ],
+    angle: 0
+  }
+
+  assert.deepEqual(
+    gradientToObject("radial-gradient(circle, rgba(63,94,251,1) 20%, rgba(252,70,107,1) 90%)"),
+    expected,
+    "matches original"
+  );
+})

@@ -23,9 +23,16 @@
     "dev": "ts-node src",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "gradient",
+    "object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xorb/gradient-to-object.git"
+  },
+  "author": "Dany Boza <dany.boza@scenify.io>",
+  "license": "MIT",
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
