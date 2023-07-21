@@ -1,7 +1,7 @@
 {
   "name": "gradient-to-object",
   "version": "0.0.2",
-  "description": "",
+  "description": "Convert css gradient to object",
   "type": "module",
   "exports": {
     ".": {
