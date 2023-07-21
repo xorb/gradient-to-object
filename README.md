@@ -13,13 +13,16 @@ interface GradientObject {
 ## Installation
 
 ```
-pnpm i @scenify/gradient-to-object
+pnpm i gradient-to-object
 ```
 
 ## Usage
 
 ```ts
-import { gradientToObject } from "@scenify/gradient-to-object";
+// mjs
+import { gradientToObject } from "gradient-to-object";
+// cjs
+const { gradientToObject } = require("gradient-to-object");
 
 const gradientString = "linear-gradient(120deg, #a1c4fd 10%, #c2e9fb 80%)";
 
